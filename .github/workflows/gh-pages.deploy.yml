@@ -30,9 +30,11 @@ jobs:
       - name: Export static files
         run: npm run export
       - name: Add .nojekyll file
-        run: touch ./docs/.nojekyll
+        run: touch ./out/.nojekyll
+      - name: Extra steps?
+        run: npm run gh
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
-          folder: docs
+          folder: out
