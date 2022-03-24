@@ -4,7 +4,6 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -16,7 +15,6 @@ module.exports = {
         metal: "#565584",
         blue: "#06b6d4",
         red: "#e11d48",
-        "bubble-gum": "#ff77e9",
         green: "#22c55e",
       },
     },
