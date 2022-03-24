@@ -10,7 +10,7 @@ const Nav: NextPage = () => {
           animate={{
             x: 20,
             opacity: 0,
-            textShadow: "0px 0px 8px rgb(255,150,150)",
+            textShadow: "0px 0px 8px rgb(255,100,150)",
             transitionEnd: {
               display: "none",
             },
@@ -27,7 +27,7 @@ const Nav: NextPage = () => {
           animate={{
             x: -20,
             opacity: 0,
-            textShadow: "0px 0px 8px rgb(150,255,150)",
+            textShadow: "0px 0px 8px rgb(100,255,100)",
             transitionEnd: {
               display: "none",
             },
@@ -45,7 +45,7 @@ const Nav: NextPage = () => {
             y: 10,
             x: 0,
             opacity: 0,
-            textShadow: "0px 0px 8px rgb(100,180,255)",
+            textShadow: "0px 0px 8px rgb(100,150,255)",
             transitionEnd: {
               display: "none",
             },
