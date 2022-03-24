@@ -17,7 +17,7 @@ const Nav: NextPage = () => {
           }}
           transition={{ type: "spring", stiffness: 10 }}
         >
-          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center opacity-60 xl:text-8xl text-red">
+          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-red">
             {"< Cory Zauss />"}
           </div>
         </motion.div>
@@ -34,7 +34,7 @@ const Nav: NextPage = () => {
           }}
           transition={{ type: "spring", stiffness: 10 }}
         >
-          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center opacity-60 xl:text-8xl text-green">
+          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-green">
             {"< Cory Zauss />"}
           </div>
         </motion.div>
@@ -52,12 +52,13 @@ const Nav: NextPage = () => {
           }}
           transition={{ type: "spring", stiffness: 10 }}
         >
-          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center opacity-60 xl:text-8xl text-blue">
+          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-blue">
             {"< Cory Zauss />"}
           </div>
         </motion.div>
 
         <motion.div
+          whileHover={{ scale: 1.2 }}
           initial={{
             scale: 1,
             opacity: 0,
@@ -67,10 +68,13 @@ const Nav: NextPage = () => {
             display: "block",
             scale: 1,
             opacity: 1,
-            textShadow: "0px 0px 8px rgb(255,255,255)",
+
             transition: {
               delay: 2.6,
-              ease: [0, 0, 1, 0.67],
+              ease: [2, 0, 1, 0.67],
+            },
+            transitionEnd: {
+              textShadow: "0px 0px 8px rgb(255,255,255)",
             },
           }}
         >

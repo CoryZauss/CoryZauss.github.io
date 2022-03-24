@@ -8,8 +8,9 @@ const Portrait: NextPage = () => {
     <motion.div
       className="flex m-5 overflow-hidden border-4 rounded-full w-30 h-30"
       whileHover={{
-        boxShadow: "0px 0px 8px rgb(white,255,255)",
+        rotate:360,
       }}
+      whileTap={{scale: .5}}
     >
       <Image src={placeholder} alt="photo of me" />
     </motion.div>
