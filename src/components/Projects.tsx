@@ -4,13 +4,7 @@ const Projects: NextPage = () => {
   return (
     <>
       <div>
-        projects projects projects projects projects projects projects projects{" "}
-        projects projects projects projects projects projects projects projects{" "}
-        projects projects projects projects projects projects projects projects{" "}
-        projects projects projects projects projects projects projects projects{" "}
-        projects projects projects projects projects projects projects projects{" "}
-        projects projects projects projects projects projects projects projects{" "}
-        projects{" "}
+       container with cards to flip thru with optional more info modals with full descriptions of the projects.
       </div>
     </>
   );

@@ -29,10 +29,11 @@ const Home: NextPage = () => {
       <div className="container flex justify-between h-screen p-5 sm:justify-evenly sm:text-2xl md:ml-16 md:text-4xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-5xl ">
         <Resume />
       </div>
-      <div className="container flex justify-between h-screen p-5 sm:justify-evenly sm:text-2xl md:ml-16 md:text-4xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-5xl ">
+      <div className="h-screen"> </div>
+      <div className="container flex justify-between h-screen p-5 mt-10 sm:justify-evenly sm:text-2xl md:ml-16 md:text-4xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-5xl lg:mt-36 ">
         <Projects />
       </div>
-      <div className="container flex justify-between h-screen p-5 sm:justify-evenly sm:text-2xl md:ml-16 md:text-4xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-5xl ">
+      <div className="container flex justify-between h-screen p-5 mt-10 sm:justify-evenly sm:text-2xl md:ml-16 md:text-4xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-5xl ">
         <Personal />
       </div>
     </div>
