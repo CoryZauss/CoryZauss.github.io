@@ -7,7 +7,7 @@ const Portrait: NextPage = () => {
   return (
     <>
       <motion.div
-        className="flex w-40 h-40 m-5 overflow-hidden border-2 rounded-full "
+        className="flex w-40 h-40 m-5 overflow-hidden border-2 rounded-full mt-14 "
         whileHover={{
           rotate: 360,
         }}

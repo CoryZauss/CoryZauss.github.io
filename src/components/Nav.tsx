@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const Nav: NextPage = () => {
   return (
     <>
-      <div className="fixed inset-x-0 top-0 left-0 right-0 z-50 flex-row py-5 transition-colors duration-300 border-b border-transparent ease backdrop-blur-xl ">
+      <div className="fixed inset-x-0 top-0 left-0 right-0 z-50 flex-row py-5 text-5xl font-medium transition-colors duration-300 border-b border-transparent ease backdrop-blur-xl sm:text-6xl md:text-7xl xl:text-7xl 2xl:text-8xl">
         <motion.div
           initial={{ y: 1000 }}
           animate={{
-            y: -10,
+            y: 0,
             opacity: 0,
             textShadow: "0px 0px 8px rgb(255,100,150)",
             transitionEnd: {
@@ -17,7 +17,7 @@ const Nav: NextPage = () => {
           }}
           transition={{ type: "spring", stiffness: 18 }}
         >
-          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-red">
+          <div className="fixed inset-x-0 mx-auto text-center text-red">
             {"< Cory Zauss />"}
           </div>
         </motion.div>
@@ -34,31 +34,29 @@ const Nav: NextPage = () => {
           }}
           transition={{ type: "spring", stiffness: 16 }}
         >
-          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-green">
+          <div className="fixed inset-x-0 mx-auto font-medium text-center text-green">
             {"< Cory Zauss />"}
           </div>
         </motion.div>
 
         <motion.div
-          initial={{ y: 1000, x: 0 }}
+          initial={{ y: 1000 }}
           animate={{
-            y: -10,
-            x: 0,
+            y: 0,
             opacity: 0,
             textShadow: "0px 0px 8px rgb(100,150,255)",
             transitionEnd: {
               display: "none",
             },
           }}
-          transition={{ type: "spring", stiffness: 20}}
+          transition={{ type: "spring", stiffness: 20 }}
         >
-          <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-blue">
+          <div className="fixed inset-x-0 mx-auto font-medium text-center text-blue">
             {"< Cory Zauss />"}
           </div>
         </motion.div>
 
         <motion.div
-          whileHover={{ scale: 1.2 }}
           initial={{
             scale: 1,
             opacity: 0,
@@ -78,9 +76,7 @@ const Nav: NextPage = () => {
             },
           }}
         >
-          <div className="text-5xl font-medium text-center xl:text-8xl">
-            {"< Cory Zauss />"}
-          </div>
+          <div className="font-medium text-center ">{"< Cory Zauss />"}</div>
           <div className="pt-2 text-sm font-medium text-center">
             {"Full Stack Developer | Problem Solver | Gamer"}
           </div>
