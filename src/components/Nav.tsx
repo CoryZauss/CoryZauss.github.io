@@ -6,16 +6,16 @@ const Nav: NextPage = () => {
     <>
       <div className="fixed inset-x-0 top-0 left-0 right-0 z-50 flex-row py-5 transition-colors duration-300 border-b border-transparent ease backdrop-blur-xl ">
         <motion.div
-          initial={{ x: -250 }}
+          initial={{ y: 1000 }}
           animate={{
-            x: 20,
+            y: -10,
             opacity: 0,
-            textShadow: "0px 0px 8px rgb(255,0,0)",
+            textShadow: "0px 0px 8px rgb(255,100,150)",
             transitionEnd: {
               display: "none",
             },
           }}
-          transition={{ type: "spring", stiffness: 10 }}
+          transition={{ type: "spring", stiffness: 18 }}
         >
           <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-red">
             {"< Cory Zauss />"}
@@ -23,16 +23,16 @@ const Nav: NextPage = () => {
         </motion.div>
 
         <motion.div
-          initial={{ x: 250 }}
+          initial={{ y: 1000 }}
           animate={{
-            x: -20,
+            y: -10,
             opacity: 0,
-            textShadow: "0px 0px 8px rgb(0,255,0)",
+            textShadow: "0px 0px 8px rgb(100,255,100)",
             transitionEnd: {
               display: "none",
             },
           }}
-          transition={{ type: "spring", stiffness: 10 }}
+          transition={{ type: "spring", stiffness: 16 }}
         >
           <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-green">
             {"< Cory Zauss />"}
@@ -40,17 +40,17 @@ const Nav: NextPage = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -80, x: 0 }}
+          initial={{ y: 1000, x: 0 }}
           animate={{
-            y: 10,
+            y: -10,
             x: 0,
             opacity: 0,
-            textShadow: "0px 0px 8px rgb(0,0,255)",
+            textShadow: "0px 0px 8px rgb(100,150,255)",
             transitionEnd: {
               display: "none",
             },
           }}
-          transition={{ type: "spring", stiffness: 10 }}
+          transition={{ type: "spring", stiffness: 20}}
         >
           <div className="fixed inset-x-0 mx-auto text-5xl font-medium text-center xl:text-8xl text-blue">
             {"< Cory Zauss />"}

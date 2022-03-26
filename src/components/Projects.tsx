@@ -3,7 +3,15 @@ import type { NextPage } from "next";
 const Projects: NextPage = () => {
   return (
     <>
-      <div>projects</div>
+      <div>
+        projects projects projects projects projects projects projects projects{" "}
+        projects projects projects projects projects projects projects projects{" "}
+        projects projects projects projects projects projects projects projects{" "}
+        projects projects projects projects projects projects projects projects{" "}
+        projects projects projects projects projects projects projects projects{" "}
+        projects projects projects projects projects projects projects projects{" "}
+        projects{" "}
+      </div>
     </>
   );
 };
