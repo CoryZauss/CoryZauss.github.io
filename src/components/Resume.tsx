@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { motion } from "framer-motion";
 
 const Resume: NextPage = () => {
   return (
@@ -36,13 +37,27 @@ const Resume: NextPage = () => {
           Education / Training
         </div>
         <p>
-          In 2021 I attended the advanced software engineering immersive program
-          called Hack Reactor to accelerate my learning and get a jump on my
-          path to becoming a full stack developer.
+          In 2021 I attended the{" "}
+          <span className="text-foam">
+            advanced software engineering immersive program
+          </span>{" "}
+          <motion.a
+            className="underline text-miami"
+            href="https://www.hackreactor.com/"
+            target="_blank"
+            whileHover={{ scale: 2 }}
+          >
+            Hack Reactor
+          </motion.a>{" "}
+          to accelerate my learning and get a jump on my path to becoming a full
+          stack developer.
           <br></br>
           <br></br>
           <a>
-            The program was intense, 6 days a week from 9am to 8pm for 14 weeks.
+            The program was intense,{" "}
+            <span className="text-foam">
+              6 days a week from 9am to 8pm for 14 weeks.
+            </span>{" "}
             I learned so much about the engineering world, myself, and how to be
             an autonomous learner and developer. I seek to continue to learn and
             grow my skills over my career and hope to meet some great people

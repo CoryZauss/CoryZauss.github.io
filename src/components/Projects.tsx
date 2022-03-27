@@ -5,7 +5,7 @@ const Projects: NextPage = () => {
   return (
     <>
       <div>
-        <div className="mb-8 text-center ">Projects</div>
+        <div className="mb-8 text-4xl text-center lg:text-6xl">Projects</div>
 
         <motion.div
           className="w-10/12 p-8 mb-16 ml-auto mr-8 border-2 sm:text-2xl rounded-3xl bg-darkfoam h-max lg:text-3xl md:text-2xl xl:text-3xl lg:mr-auto lg:w-8/12"
@@ -49,7 +49,7 @@ const Projects: NextPage = () => {
             position: "relative",
             zIndex: 1,
             scale: [1, 1.4, 1.2],
-            rotate: [0, 10, -10, 0],
+            rotate: [0, -10, 10, 0],
             transition: {
               duration: 0.2,
             },
@@ -87,7 +87,7 @@ const Projects: NextPage = () => {
             position: "relative",
             zIndex: 1,
             scale: [1, 1.4, 1.2],
-            rotate: [0, 10, -10, 0],
+            rotate: [10, 10, -10, 0],
             transition: {
               duration: 0.2,
             },

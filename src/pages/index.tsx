@@ -23,22 +23,22 @@ const Home: NextPage = () => {
       <Nav />
 
       <div style={{ height: 100 }}></div>
-      <div className="container flex justify-between h-screen p-5 mt-10 sm:justify-evenly sm:text-2xl md:m-16 md:text-4xl md:justify-around lg:text-4xl lg:m-10 lg:mt-20 lg:justify-evenly 2xl:text-4xl 2xl:ml-0">
+      <div className="container flex justify-between p-5 mt-10 h-max sm:justify-evenly sm:text-2xl md:m-16 md:text-4xl md:justify-around lg:text-4xl lg:m-10 lg:mt-20 lg:justify-evenly 2xl:text-4xl 2xl:ml-0">
         <Intro offsety={offsetY} />
         <Portrait />
       </div>
-      <div className="container flex justify-between w-10/12 h-screen p-5 ml-auto sm:justify-evenly sm:text-2xl md:ml-16 md:text-2xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-4xl">
+      <div className="container flex justify-between w-10/12 p-5 m-auto mt-20 h-max sm:justify-evenly sm:text-2xl md:ml-16 md:text-2xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-4xl">
         <Resume />
       </div>
 
-      <div className="container flex justify-between h-screen p-5 mt-10 sm:justify-evenly sm:text-2xl md:ml-16 md:text-4xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-4xl lg:mt-36 ">
+      <div className="container flex justify-between p-5 mt-10 h-mx sm:justify-evenly sm:text-2xl md:ml-16 md:text-4xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-4xl lg:mt-36 ">
         <Projects />
       </div>
 
-      <div className="h-screen"> </div>
-      <div className="container flex justify-between w-10/12 h-screen p-5 mt-10 sm:justify-evenly sm:text-2xl md:ml-16 md:text-2xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-4xl">
+      <div className="container flex justify-between w-10/12 p-5 m-auto mt-10 h-max sm:justify-evenly sm:text-2xl md:ml-16 md:text-2xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-4xl">
         <Personal />
       </div>
+      <div className="h-screen"></div>
       <ProgressBar offsety={offsetY} />
     </div>
   );
