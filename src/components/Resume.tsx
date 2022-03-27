@@ -41,13 +41,13 @@ const Resume: NextPage = () => {
           path to becoming a full stack developer.
           <br></br>
           <br></br>
-          <p>
+          <a>
             The program was intense, 6 days a week from 9am to 8pm for 14 weeks.
             I learned so much about the engineering world, myself, and how to be
             an autonomous learner and developer. I seek to continue to learn and
             grow my skills over my career and hope to meet some great people
             along the way.
-          </p>
+          </a>
         </p>
       </div>
     </>

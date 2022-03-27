@@ -35,7 +35,7 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 5}}
+            transition={{ type: "spring", stiffness: 200, delay: 5 }}
           >
             I am a
           </motion.li>
@@ -47,7 +47,7 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 6 }}
+            transition={{ type: "spring", stiffness: 200, delay: 6}}
           >
             Passionate
           </motion.li>

@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app'
 import 'tailwindcss/tailwind.css'
+import { motion } from 'framer-motion'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />

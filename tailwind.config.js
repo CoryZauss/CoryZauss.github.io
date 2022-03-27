@@ -19,6 +19,7 @@ module.exports = {
         miami: "#db2777",
         foam: "#2dd4bf",
         green: "#22c55e",
+        darkfoam: "#134e4a",
       },
     },
   },
