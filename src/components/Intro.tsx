@@ -29,16 +29,6 @@ const Intro: NextPage<Props> = ({ offsety }) => {
           >
             Hey, Im Cory
           </motion.li>
-          <motion.li
-            initial={{ x: -300, opacity: 0 }}
-            animate={{
-              x: 0,
-              opacity: 1,
-            }}
-            transition={{ type: "spring", stiffness: 200, delay: 5 }}
-          >
-            I am a
-          </motion.li>
           <br></br>
           <motion.li
             className="text-white"
@@ -47,9 +37,9 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 6}}
+            transition={{ type: "spring", stiffness: 200, delay: 5}}
           >
-            Passionate
+           A Passionate
           </motion.li>
           <motion.li
             className="text-white"
@@ -58,7 +48,7 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 6 }}
+            transition={{ type: "spring", stiffness: 200, delay: 5 }}
           >
             Developer
           </motion.li>
@@ -70,7 +60,7 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 7 }}
+            transition={{ type: "spring", stiffness: 200, delay: 6 }}
           >
             Lifelong
           </motion.li>
@@ -81,7 +71,7 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 7 }}
+            transition={{ type: "spring", stiffness: 200, delay: 6 }}
           >
             Learner
           </motion.li>
@@ -93,9 +83,9 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 8 }}
+            transition={{ type: "spring", stiffness: 200, delay: 7 }}
           >
-            somthing
+            and
           </motion.li>
           <motion.li
             className="text-miami"
@@ -104,9 +94,11 @@ const Intro: NextPage<Props> = ({ offsety }) => {
               x: 0,
               opacity: 1,
             }}
-            transition={{ type: "spring", stiffness: 200, delay: 8 }}
+            transition={{ type: "spring", stiffness: 200, delay: 7 }}
           >
-            somthing
+            Creative
+            <br></br>
+            Thinker
           </motion.li>
         </ul>
       </motion.div>

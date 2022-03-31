@@ -1,10 +1,26 @@
 import type { NextPage } from "next";
+import { motion } from "framer-motion";
 
 const Personal: NextPage = () => {
   return (
     <>
       <div>
-        <div className="mb-8 text-4xl text-center lg:text-6xl">About Me</div>
+        <motion.div
+          className="mb-8 text-4xl text-center lg:text-6xl"
+          initial={{ x: 1000 }}
+          animate={{
+            x: 0,
+            transition: {
+              duration: 2.5,
+            },
+            transitionEnd: {
+              textShadow: "0px 0px 8px rgb(255,255,255)",
+            },
+          }}
+          transition={{ type: "spring" }}
+        >
+          About Me
+        </motion.div>
         <p>
           I am a very active person and enjoy staying in shape. I love to get
           outside and play <a className="text-foam"> basketball</a> or go on
@@ -22,8 +38,8 @@ const Personal: NextPage = () => {
         <br></br>
         <p>
           I enjoy watching movies and keeping up with the{" "}
-          <a className="text-foam">NBA</a>, currently love watching my home team the{" "}
-          <a className="text-foam"> Charlotte Hornets</a> play.
+          <a className="text-foam">NBA</a>, currently love watching my home team
+          the <a className="text-foam"> Charlotte Hornets</a> play.
         </p>
       </div>
     </>
