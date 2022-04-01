@@ -18,7 +18,7 @@ module.exports = {
         red: "#e11d48",
         miami: "#db2777",
         foam: "#2dd4bf",
-        green: "#22c55e",
+        green: "#047857",
         darkfoam: "#134e4a",
       },
     },
