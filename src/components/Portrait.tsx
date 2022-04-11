@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import placeholder from "../../assets/space.png";
+import me from "../../assets/me1.jpg";
+
 
 const Portrait: NextPage = () => {
   return (
@@ -19,7 +21,7 @@ const Portrait: NextPage = () => {
           }
         }}
       >
-        <Image src={placeholder} alt="photo of me" />
+        <Image src={me} alt="photo of me" className="h-44" />
       </motion.div>
     </>
   );

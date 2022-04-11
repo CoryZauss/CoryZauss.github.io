@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <Intro offsety={offsetY} />
         <Portrait />
       </div>
-
+      <div className="h-44"></div>
       <div className="container flex justify-between w-10/12 p-5 m-auto mt-20 h-max sm:justify-evenly sm:text-2xl md:ml-16 md:text-2xl md:justify-around lg:text-4xl lg:justify-evenly 2xl:text-4xl">
         <FadeInWhenVisible>
           <Resume />
