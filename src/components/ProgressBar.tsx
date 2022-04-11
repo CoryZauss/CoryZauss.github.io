@@ -11,7 +11,6 @@ const ProgressBar: NextPage<Props> = ({ offsety }) => {
     //calculate % of page scrolled thru and set to barlength
     const docHeight = window.document.body.offsetHeight
     const percent = 100 - (offsety / docHeight * 122)
-    console.log(percent)
     setBarLength(`${percent}%`)
   }, [offsety])
 
