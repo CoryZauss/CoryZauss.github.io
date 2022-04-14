@@ -12,7 +12,6 @@ const ProgressBar: NextPage<Props> = ({ offsety }) => {
     const docHeight = window.document.body.offsetHeight
     // progress bar starts related to screen size
     const windowHeightPercent = window.innerHeight / docHeight * 100;
-    console.log(windowHeightPercent)
     const percent = 100 - (offsety / docHeight * 100)
     setBarLength(`${percent - windowHeightPercent}%`)
   }, [offsety])
