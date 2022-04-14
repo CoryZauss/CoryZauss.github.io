@@ -10,8 +10,11 @@ const ProgressBar: NextPage<Props> = ({ offsety }) => {
   useEffect(() => {
     //calculate % of page scrolled thru and set to barlength
     const docHeight = window.document.body.offsetHeight
-    const percent = 100 - (offsety / docHeight * 122)
-    setBarLength(`${percent}%`)
+    // progress bar starts related to screen size
+    const windowHeightPercent = window.innerHeight / docHeight * 100;
+    console.log(windowHeightPercent)
+    const percent = 100 - (offsety / docHeight * 100)
+    setBarLength(`${percent - windowHeightPercent}%`)
   }, [offsety])
 
   return (

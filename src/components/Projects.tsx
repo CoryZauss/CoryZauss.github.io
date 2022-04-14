@@ -4,10 +4,7 @@ import { motion, useCycle } from "framer-motion";
 const Projects: NextPage = () => {
   return (
     <>
-
       <div>
-
-
         <motion.div
           className="w-10/12 p-8 mb-16 ml-auto mr-8 border-2 sm:text-2xl rounded-3xl bg-darkfoam h-max lg:text-3xl md:text-2xl xl:text-3xl lg:mr-auto lg:w-8/12"
           whileHover={{
@@ -20,12 +17,12 @@ const Projects: NextPage = () => {
             },
           }}
         >
-          <a className="mb-3 lg:mb-10">
+          <a className="mb-3 font-bold lg:mb-10">
             Hitch: Ride-share application | Full Stack Engineer
           </a>
           <br></br>
           <a className="mb-3">
-            Tech Stack: FireBase | Express | React Router| CSS | Material-UI|
+            Tech Stack: FireBase | Express | React Router | CSS | Material-UI |
             Node.js
           </a>{" "}
           <li className="mb-3">
@@ -57,7 +54,7 @@ const Projects: NextPage = () => {
           }}
         >
           <a className="mb-3"></a>
-          <a className="mb-3">
+          <a className="mb-3 font-bold">
             Timeless: Restful API and Database for a front end shopping
             application | Systems Design Engineer{" "}
           </a>
@@ -95,7 +92,7 @@ const Projects: NextPage = () => {
           }}
         >
           <a className="mb-3"></a>
-          <a className="mb-3">
+          <a className="mb-3 font-bold">
             Timeless: Front-end e-commerce application | Front-End Engineer
           </a>
           <br></br>

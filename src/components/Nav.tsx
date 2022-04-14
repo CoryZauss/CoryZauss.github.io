@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Nav: NextPage = () => {
   return (
     <>
-      <div className="fixed inset-x-0 top-0 left-0 right-0 z-50 flex-row py-5 text-5xl font-medium transition-colors duration-300 border-b border-transparent ease backdrop-blur-xl sm:text-6xl md:text-7xl xl:text-7xl 2xl:text-8xl">
+      <div className="fixed inset-x-0 top-0 left-0 right-0 z-50 flex-row py-5 text-5xl font-medium transition-colors duration-300 border-b border-transparent ease backdrop-blur-xl sm:text-6xl md:text-7xl xl:text-7xl 2xl:text-7xl">
         <motion.div
           initial={{ y: 1000 }}
           animate={{

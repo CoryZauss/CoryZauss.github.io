@@ -55,7 +55,30 @@ const Home: NextPage = () => {
           <Personal />
         </FadeInWhenVisible>
       </div>
-      <div className="flex items-end justify-center h-screen mt-auto mb-10 text-center align-bottom">
+      <motion.div className="flex flex-col content-end mt-auto mb-10 text-2xl text-center align-bottom h-max pt-44">
+        <motion.a
+          href="https://www.linkedin.com/in/coryzauss/"
+          target="_blank"
+          whileHover={{ scale: 2, textShadow: "0px 0px 8px rgb(255,255,255)" }}
+        >
+          LinkedIn
+        </motion.a>
+        <motion.a
+          href="mailto: cory.classic@gmail.com"
+          target="_blank"
+          whileHover={{ scale: 2, textShadow: "0px 0px 8px rgb(255,255,255)" }}
+        >
+          Email
+        </motion.a>
+        <motion.a
+          href="https://twitter.com/CoryZaussDev"
+          target="_blank"
+          whileHover={{ scale: 2, textShadow: "0px 0px 8px rgb(255,255,255)" }}
+        >
+          Twitter
+        </motion.a>
+      </motion.div>
+      <div className="flex items-end justify-center mt-auto mb-10 text-center align-bottom h-max">
         <p>
           This site was designed using Next.js, Typescript and TailwindCSS.
           Authored by Cory Zauss.
