@@ -64,7 +64,7 @@ const Home: NextPage = () => {
           LinkedIn
         </motion.a>
         <motion.a
-          href="mailto: cory.classic@gmail.com"
+          href="mailto: cory.zauss@gmail.com"
           target="_blank"
           whileHover={{ scale: 2, textShadow: "0px 0px 8px rgb(255,255,255)" }}
         >
