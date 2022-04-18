@@ -40,6 +40,16 @@ const Projects: NextPage = () => {
             and utilization of compression middleware, boosting score from low
             60s to mid 90s
           </li>
+          <motion.a
+            href="https://github.com/project-blue-ocean/hitch"
+            target="_blank"
+            whileHover={{
+              textShadow: "0px 0px 8px rgb(255,255,255)",
+            }}
+            className="underline"
+          >
+            Hitch Github
+          </motion.a>
         </motion.div>
         <motion.div
           className="w-10/12 p-8 mb-16 ml-auto mr-8 border-2 sm:text-2xl rounded-3xl bg-darkfoam h-max lg:text-3xl md:text-2xl xl:text-3xl lg:mr-auto lg:w-8/12"
@@ -78,6 +88,16 @@ const Projects: NextPage = () => {
             per second without a load balancer and deployed service to an EC2
             instance
           </li>
+          <motion.a
+            href="https://github.com/Tweed-BGE0/ProductsAPI-Cory"
+            target="_blank"
+            whileHover={{
+              textShadow: "0px 0px 8px rgb(255,255,255)",
+            }}
+            className="underline"
+          >
+            Timeless API Github
+          </motion.a>
         </motion.div>
         <motion.div
           className="w-10/12 p-8 mb-10 ml-auto mr-8 border-2 sm:text-2xl rounded-3xl bg-darkfoam h-max lg:text-3xl md:text-2xl xl:text-3xl lg:mr-auto lg:w-8/12"
@@ -109,6 +129,16 @@ const Projects: NextPage = () => {
             Organized asynchronous RESTful api calls to facilitate initial data
             for multiple components
           </li>
+          <motion.a
+            href="https://github.com/Poseidon-rfe7/CatWalk"
+            target="_blank"
+            whileHover={{
+              textShadow: "0px 0px 8px rgb(255,255,255)",
+            }}
+            className="underline"
+          >
+            Timeless Front-end Github
+          </motion.a>
         </motion.div>
       </div>
     </>
